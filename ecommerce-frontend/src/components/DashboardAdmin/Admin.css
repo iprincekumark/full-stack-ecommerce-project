@@ -1,0 +1,9 @@
+.container-06 {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../Media//images/image08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; /* Add this line */
+  background-color: black;
+}

@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-01{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../Media//images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
+.row-01 {
+    display: flex;
+    height: 65%;
+    align-items: center;
+}
+
+.col-01 {
+    margin-left: 3%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+#para01 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 22px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.row-02 {
+    margin-left: 2.1%;
+    margin-top: -2%;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 5px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card-1 {
+    background-image: url(../Media/images/pic01.jpg);
+}
+.card-2 {
+    background-image: url(../Media/images/pic02.jpg);
+}
+.card-3 {
+    background-image: url(../Media/images/pic03.jpg);
+}
+.card-4 {
+    background-image: url(../Media/images/pic04.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+} 
+
+
+@media (max-width: 768px) {
+  .row-01 {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+  }
+
+  .col-01 {
+    margin-left: 0; /* Remove left margin on smaller screens */
+  }
+
+  .card {
+    width: 50%; /* Make cards take full width on smaller screens */
+    height: 100%; /* Allow cards to adjust their height */
+    margin: 10px 5px; /* Add margin to separate cards */
+  }
+
+  h1 {
+    margin-left: 4%;
+    margin-top: 15%;
+    font-size: 60px; /* Adjust heading font size */
+  }
+
+  #para01 {
+    margin-left: 4%;
+    margin-right: 20%;
+    font-size: 20px; /* Adjust paragraph font size */
+    line-height: 25px; /* Adjust line height */
+  }
+
+  button {
+    margin-left: 4%;
+    width: 50%; /* Make buttons take full width */
+    font-size: 18px; /* Adjust button font size */
+    margin-top: 20px; /* Increase top margin for buttons */
+  }
+  .row-02 {
+    margin-top: -50%;
+  }
+}

@@ -1,0 +1,20 @@
+const navbarItemsTwo = [
+  {
+    title: "Dashboard",
+    link: "/dashboarduser",
+  },
+  {
+    title: "Shop Now",
+    link: "/user/shopnow",
+  },
+  {
+    title: "About",
+    link: "/user/about",
+  },
+  {
+    title: "Services",
+    link: "/user/services",
+  },
+];
+
+export default navbarItemsTwo;

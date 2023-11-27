@@ -1,0 +1,8 @@
+.container-02{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../Media//images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
