@@ -7,6 +7,10 @@ const navbarItemsOne = [
     title: "Remove Product",
     link: "/removeproduct",
   },
+  {
+    title: "Log Out",
+    link: "/",
+  },
 ];
 
 export default navbarItemsOne;
