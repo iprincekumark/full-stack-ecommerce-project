@@ -64,16 +64,16 @@ button {
 }
 
 .card-1 {
-    background-image: url(../Media/images/pic01.png);
+    background-image: url(../Media/images/pic01.jpg);
 }
 .card-2 {
-    background-image: url(../Media/images/pic02.png);
+    background-image: url(../Media/images/pic02.jpg);
 }
 .card-3 {
-    background-image: url(../Media/images/pic03.png);
+    background-image: url(../Media/images/pic03.jpg);
 }
 .card-4 {
-    background-image: url(../Media/images/pic04.png);
+    background-image: url(../Media/images/pic04.jpg);
 }
 
 .card:hover {

@@ -1,10 +1,8 @@
 .container-03{
-    width: 94vw;
-    height: 160vh;
-    margin-left: 2.5%;
-    margin-right: 0.5%;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../Media//images/image06.jpg); */
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../Media//images/image06.jpg);
     background-position: center;
     background-size: cover;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
 }
