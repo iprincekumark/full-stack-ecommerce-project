@@ -19,7 +19,7 @@ const ProductCard = ({
   return (
     <Card
       sx={{
-        maxWidth: 345,
+        maxWidth: 340,
         marginTop: "80px",
         marginLeft: "10px",
         marginRight: "10px",

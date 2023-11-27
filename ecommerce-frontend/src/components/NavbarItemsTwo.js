@@ -15,6 +15,10 @@ const navbarItemsTwo = [
     title: "Services",
     link: "/user/services",
   },
+  {
+    title: "Log Out",
+    link: "/",
+  },
 ];
 
 export default navbarItemsTwo;
