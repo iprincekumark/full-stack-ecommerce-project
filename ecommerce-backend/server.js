@@ -7,7 +7,7 @@ const bcrypt = require("bcrypt");
 const app = express();
 const port = 5000;
 const dbUrl =
-  "mongodb+srv://godfather:hawkzues@godfather.agitykp.mongodb.net/hawkzues"; // Update with your MongoDB connection URL
+  ""; // Update with your MongoDB connection URL
 
 // Connect to MongoDB
 mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true });
